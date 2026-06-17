@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f1faee;
+}
+
+header {
+  background-color: #dfd9e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #c3acce;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+nav a {
+  color: #89909f;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+section {
+  background: #538083;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #2a7f62;
+  padding: 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1d3557;
+  color: white;
+  padding: 10px;
+}
